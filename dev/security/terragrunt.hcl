@@ -5,7 +5,7 @@ locals {
 }
 
 terraform {
-  source = "git::git@github.com:rixwan-sharif/tf-modules.git//security?ref=v0.0.1"
+  source = "git::git@github.com:rixwan-sharif/tf-modules.git//security?ref=v0.0.2"
 }
 include {
   path = find_in_parent_folders()
