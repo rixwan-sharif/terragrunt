@@ -15,3 +15,8 @@ remote_state {
     encrypt        = true
   }
 }
+
+
+inputs = merge(
+  local.environment_vars.locals
+)
